@@ -1,6 +1,6 @@
 import contextlib
 import typing
-from playwright_remote_context_manager import sync_playwright_remote
+from playwright_remote.sync_api import sync_playwright_remote
 from playwright.sync_api import Browser, BrowserType
 import os
 
